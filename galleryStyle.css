@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navbar-logo{
+    font-weight: 700;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    /* background-color: blue; */
+    padding: 30px 80px;
+    position: fixed;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-mid{
+    display: flex;
+}
+
+.navbar-main{
+    display: flex;
+    gap: 75px;
+    
+}
+
+.navbar-right a{
+    padding: 6px 24px;
+    border-radius: 40px;
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+#Hero{
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/211836.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hero h1{
+    color: aliceblue;
+}
