@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/gallery-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <title>MTGraphy's Gallery</title>
 </head>
 <body>
+    <nav id="Navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <div class="navbar-logo">MTGraphy</div>
+            </div>
+
+            <div class="navbar-mid">
+                <div class="navbar-main">
+                    <a href="">Home</a>
+                    <a href="">Gallery</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="navbar-right">
+                <a href="">Subscribe</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="header">
+        <div class="header-container">
+            <div class="header-content">
+                <h1>Our Gallery</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+                <a href="">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+
+        <div class="gallery-Text">
+            <h1>LandScape</h1>
+        </div>
+        <div class="carousel">
+            <button class="carousel_button carousel_button--left">
+                <img src="./Assets/arrow-kiri.png" alt="">
+            </button>
+            <div class="carousel_track-container">
+                <ul class="carousel_track">
+                    <li class="carousel_slide current-slide">
+                        <img class="carousel_img" src="https://static.bangkokpost.com/media/content/20210111/c1_3863655.jpg"
+                            alt="Event Photo 1">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://cdn.mos.cms.futurecdn.net/74pCXBPyfCvb7HWEdm57HE.jpg"
+                            alt="Event Photo 2">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://asiastart.com/wp-content/uploads/2017/12/CES2-1.jpg"
+                            alt="Event Photo 3">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://i.insider.com/5c378ccad4beaf515e4b49c4?width=1136&format=jpeg"
+                            alt="Event Photo 4">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel_button carousel_button--right">
+                <img src="./Assets/arrow-kanan.png" alt="">
+            </button>
     
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div>
+        </div>
+
+
+
+        <div class="gallery-Text">
+            <h1>Portrait</h1>
+        </div>
+        <div class="carousel2">
+            <button class="carousel_button carousel_button--left button2--left">
+                <img src="./Assets/arrow-kiri.png" alt="">
+            </button>
+            <div class="carousel_track-container">
+                <ul class="carousel_track track2">
+                    <li class="carousel_slide current-slide2">
+                        <img class="carousel_img" src="https://static.bangkokpost.com/media/content/20210111/c1_3863655.jpg"
+                            alt="Event Photo 1">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://cdn.mos.cms.futurecdn.net/74pCXBPyfCvb7HWEdm57HE.jpg"
+                            alt="Event Photo 2">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://asiastart.com/wp-content/uploads/2017/12/CES2-1.jpg"
+                            alt="Event Photo 3">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://i.insider.com/5c378ccad4beaf515e4b49c4?width=1136&format=jpeg"
+                            alt="Event Photo 4">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel_button carousel_button--right button2--right">
+                <img src="./Assets/arrow-kanan.png" alt="">
+            </button>
+    
+            <div class="carousel_nav nav2">
+                <button class="carousel_indicator2 current-slide2"></button>
+                <button class="carousel_indicator2"></button>
+                <button class="carousel_indicator2"></button>
+                <button class="carousel_indicator2"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-content">
+            <p>MTGraphy 2022</p>
+            <p>+62 0892 2124 9232</p>
+        </div>
+    </section>
+
+    <script src="./JavaScript/galleryscript.js"></script>
 </body>
 </html>
