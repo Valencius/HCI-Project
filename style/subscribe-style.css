@@ -64,7 +64,8 @@ nav{
     background: rgba(228, 228, 228, 0.5);
     backdrop-filter: blur(80px);
     border-radius: 20px;
-    width: 50vw;
+    width: 40vw;
+    height: 90vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -112,6 +113,22 @@ input{
     margin-bottom: 13px;
 }
 
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input:focus{
+    outline: 0;
+}
+
+
+.input .error{
+    color: #ff3860;
+    font-size: 20px;
+    height: 30px;
+}
+
 option{
     font-size: 20px;
 }
@@ -122,6 +139,7 @@ select{
 }
 
 #name{
+    display: block;
     width: 100%;
     height: 50px;
     padding-top:7px;
@@ -129,7 +147,7 @@ select{
     padding-right:14px;
     padding-left:14px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid white;
 }
 
 #email{
@@ -140,7 +158,7 @@ select{
     padding-right:14px;
     padding-left:14px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid white;
 }
 
 #phone{
@@ -151,7 +169,7 @@ select{
     padding-right:14px;
     padding-left:14px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid white;
 }
 
 #country{
@@ -186,7 +204,7 @@ input[type='checkbox'] {
     margin-right: 5%;
 }
 button{
-    margin-top: 50px;
+    margin-top: 5px;
     display: flex;
     border: none;
     border-radius: 10px;
@@ -204,4 +222,7 @@ button:hover{
 }
 
 
-
+.input.term{
+    display: flex;
+    flex-direction: row;
+}
