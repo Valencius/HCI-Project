@@ -56,7 +56,7 @@ nav {
 
 #Hero {
   height: 60vh;
-  background-image: url("https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+  background-image: url("https://images.unsplash.com/photo-1552796123-9cf48c21f6e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -77,51 +77,26 @@ nav {
   font-size: 36px;
 }
 
-#Hero p {
-  border-radius: 5px;
-  background-color: rgba(228, 228, 228, 0.1);
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 .body {
-  margin-top: 50px;
-  padding-left: 8%;
-  padding-right: 8%;
-  margin-bottom: 50px;
-}
-
-.card {
-  margin-top: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
   display: flex;
-  gap: 200px;
-  justify-content: center;
-}
-
-.card h3 {
-  text-align: center;
-  font-size: 18px;
-}
-
-.body-2 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 0px;
-  padding-right: 0px;
+  flex-direction: column;
   margin-top: 100px;
-  text-align: center;
-  color: white;
-  background-color: #1B1C1E;
 }
 
-.body-2 img {
-  margin-top: 10px;
-  width: 24px;
+.branch-1 {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.branch-2 {
+  margin-top: 50px;
+  text-align: left;
 }
 
 #footer{
+  margin-top: 100px;
   background-color: #1B1C1E;
 }
 
@@ -136,14 +111,7 @@ nav {
   padding-bottom: 50px;
 }
 
-
-
-
-
-
-
-
-@media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 800px) {
     .navbar-logo {
         font-weight: 700;
         color: white;
@@ -191,22 +159,6 @@ nav {
         background-color: rgba(228, 228, 228, 0.5);
       }
 
-      .body {
-        margin-top: 50px;
-        padding-left: 8%;
-        padding-right: 8%;
-        margin-bottom: 50px;
-        text-align: center;
-      }
-
-      .card {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-
-
       #footer{
         background-color: #1B1C1E;
       }
@@ -222,5 +174,5 @@ nav {
         padding-top: 50px;
         padding-bottom: 50px;
       }
-      
+
 }
