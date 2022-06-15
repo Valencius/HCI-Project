@@ -54,7 +54,62 @@ nav {
   background-color: rgba(228, 228, 228, 0.5);
 }
 
+#Hero {
+  height: 60vh;
+  background-image: url("https://images.unsplash.com/photo-1552796123-9cf48c21f6e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  transition: all 0.5s;
+}
 
+#Hero:hover {
+  height: 65vh;
+}
+
+#Hero h1 {
+  margin-top: 0px;
+  font-size: 36px;
+}
+
+.body {
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.branch-1 {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.branch-2 {
+  margin-top: 50px;
+  text-align: left;
+}
+
+#footer{
+  margin-top: 100px;
+  background-color: #1B1C1E;
+}
+
+.footer-content{
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
   @media only screen and (max-width: 800px) {
     .navbar-logo {
