@@ -8,6 +8,5 @@ function Nav() {
         menuList.style.maxHeight = "0px";
     }
 }
-
 var navbar = document.querySelector('nav')
 
