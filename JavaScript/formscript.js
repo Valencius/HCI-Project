@@ -74,9 +74,9 @@ const validate = () => {
     }
 
     if(phoneValue === ''){
-        setError(phone,'Phone must be filled!')
+        setError(phone,'Phone Number must be filled!')
     }else if(phoneValue.length < 10 || phoneValue.length > 12){
-        setError(phone, 'Phone must be between 10-12 Numbers')
+        setError(phone, 'Phone Number must be between 10-12 Numbers')
     }else{
         setSuccess(phone);
     }

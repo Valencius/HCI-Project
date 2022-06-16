@@ -71,14 +71,20 @@ nav {
     padding-left: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-    background: rgba(228, 228, 228, 0.9);
+    background: rgba(228, 228, 228, 0.5);
     border-radius: 20px;
-    width: 40vw;
-    height: 90vh;
+    width: 800px;
+    height: 95vh;
     align-items: center;
     display: flex;
     flex-direction: column;
     transform: scale(0.8);
+    overflow: scroll;
+    backdrop-filter: blur(50px);
+}
+
+.form-container::-webkit-scrollbar{
+  width: 0;
 }
 
 form{
@@ -93,6 +99,7 @@ form{
     font-size: 48px;
     color: white;
     margin-bottom: 20px;
+    
 }
 
 #footer{
@@ -126,6 +133,7 @@ input{
 .input{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
 }
 
 .input input:focus{
@@ -205,6 +213,7 @@ input[type='checkbox'] {
 .checkbox{
     display: flex;
     align-items: center;
+    margin-top: 30px;
     /* justify-content: center; */
 }
 
@@ -220,7 +229,7 @@ button{
     border-radius: 10px;
     color: white;
     font-size: 25px;
-    width: 25%;
+    /* width: 25%; */
     justify-content: center;
     padding: 10px;
     align-self: flex-end;
