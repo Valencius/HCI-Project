@@ -6,32 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us!</title>
     <link rel="stylesheet" href="./style/about-style.css">
+    <link rel="stylesheet" href="./style/navStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./Assets/logo.png">
 </head>
 <body>
     <body>
-        <nav id="Navbar">
-            <div class="navbar-container">
-                <div class="navbar-left">
-                    <div class="navbar-logo">MTGraphy</div>
-                </div>
+        <div class="container">
+            <div class="navbar">
+                MTGraphy
+                <nav>
+                <ul id="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                    <li><a href="./subscribe.html" class="subs">Subscribe</a></li>
+                </ul>
+            </nav>
     
-                <div class="navbar-mid">
-                    <div class="navbar-main">
-                        <a href="./index.html">Home</a>
-                        <a href="./gallery.html">Gallery</a>
-                        <a href="./about-us.html">About Us</a>
-                        <a href="./contact-us.html">Contact Us</a>
-                    </div>
-                </div>
-    
-                <div class="navbar-right">
-                    <a href="./subscribe.html">Subscribe</a>
-                </div>
-    
+            <img src="./assets/hamburger_button_menu_icon_155296.png" class="menu-icon" onclick="Nav()" />
             </div>
-        </nav>
+            
+        </div>
 
         <section id="Hero">
             <div class="hero-container">
@@ -63,6 +60,6 @@
             </div>
         </section>
 
-    
+    <script src="./JavaScript/script.js"></script>
 </body>
 </html>

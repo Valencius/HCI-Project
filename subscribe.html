@@ -5,35 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/subscribe-style.css">
+    <link rel="stylesheet" href="style/navStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Subscribe!</title>
-    <script defer src="./JavaScript/formscript.js"></script>
     <link rel="icon" type="image/x-icon" href="./Assets/logo.png">
     
 </head>
 <body>
     <body>
-        <nav id="Navbar">
-            <div class="navbar-container">
-                <div class="navbar-left">
-                    <div class="navbar-logo">MTGraphy</div>
-                </div>
+        <div class="container">
+            <div class="navbar">
+                MTGraphy
+                <nav>
+                <ul id="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                    <li><a href="./subscribe.html" class="subs">Subscribe</a></li>
+                </ul>
+            </nav>
     
-                <div class="navbar-mid">
-                    <div class="navbar-main">
-                        <a href="./index.html">Home</a>
-                        <a href="./gallery.html">Gallery</a>
-                        <a href="./about-us.html">About Us</a>
-                        <a href="./contact-us.html">Contact Us</a>
-                    </div>
-                </div>
-    
-                <div class="navbar-right">
-                    <a href="./subscribe.html">Subscribe</a>
-                </div>
-    
+            <img src="./assets/hamburger_button_menu_icon_155296.png" class="menu-icon" onclick="Nav()" />
             </div>
-        </nav>
+            
+        </div>
 
 
     <section id="formSection">
@@ -89,6 +85,7 @@
             <p>+62 0892 2124 9232</p>
         </div>
     </section>
-    
+    <script src="./JavaScript/formscript.js"></script>
+    <script src="./JavaScript/script.js"></script>
 </body>
 </html>
