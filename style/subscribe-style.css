@@ -80,7 +80,7 @@ nav {
     flex-direction: column;
     transform: scale(0.8);
     overflow: scroll;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(1px);
 }
 
 .form-container::-webkit-scrollbar{
